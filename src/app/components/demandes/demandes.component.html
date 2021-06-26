@@ -1,0 +1,30 @@
+<div>
+    <table class="table-cotisation">
+        <th class ="title" colspan="3">
+           Mes demandes
+        </th>
+       
+        <tr>
+            
+            <td class="tr">DATE</td>
+            <td class="tr">DEMANDES</td>
+            <td class="tr">STATUT</td>
+        </tr>
+        
+        
+        <tr *ngFor="let user of userList">
+            <td>{{user.firstname}}</td>
+            <td>valeur 2</td>
+            <td>valeur 3</td>
+        </tr>
+
+        <tr>
+            <td>valeur 1</td>
+            <td>valeur 2</td>
+            <td>valeur 3</td>
+        </tr>
+        <th colspan="3">
+            <button type="button" class="btn-cotisations"> Voir plus </button>
+        </th>
+    </table>
+</div>
